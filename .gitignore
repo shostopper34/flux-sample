@@ -48,3 +48,4 @@ freeline/
 freeline_project_description.json
 app/libs/
 app/src/main/res/drawable/
+.idea/vcs.xml
