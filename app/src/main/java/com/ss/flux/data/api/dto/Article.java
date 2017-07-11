@@ -18,7 +18,7 @@ public class Article {
     String group;
 
     String id;
-    
+
     List<Tag> tags;
 
     String title;
