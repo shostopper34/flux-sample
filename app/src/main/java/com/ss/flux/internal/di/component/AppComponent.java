@@ -1,6 +1,7 @@
 package com.ss.flux.internal.di.component;
 
 import com.ss.flux.App;
+import com.ss.flux.internal.di.module.ActivityModule;
 import com.ss.flux.internal.di.module.AppModule;
 
 import javax.inject.Singleton;
@@ -14,4 +15,5 @@ import dagger.Component;
 @Component(modules = AppModule.class)
 public interface AppComponent {
     void inject(App app);
+    ActivityComponent plus(ActivityModule module);
 }
